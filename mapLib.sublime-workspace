@@ -1,0 +1,781 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"imr",
+				"imrd	import react-dom"
+			],
+			[
+				"pres",
+				"pressures"
+			],
+			[
+				"Spar",
+				"SparkLinesLine"
+			],
+			[
+				"ci",
+				"city"
+			],
+			[
+				"city",
+				"cityData"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"Re",
+				"ReduxPromise"
+			],
+			[
+				"cl",
+				"cl	console.log"
+			],
+			[
+				"bu",
+				"button:a	a"
+			],
+			[
+				"butse",
+				"button:state	state"
+			],
+			[
+				"but",
+				"button:block	block"
+			],
+			[
+				"btn",
+				"btn-secondary"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"input",
+				"input_group	input_group"
+			],
+			[
+				"input_goru",
+				"input_group:addon	addon"
+			],
+			[
+				"in",
+				"input_group	input_group"
+			],
+			[
+				"form",
+				"form:group	group"
+			],
+			[
+				"BOok",
+				"BookDetail"
+			],
+			[
+				"Boo",
+				"BookDetail"
+			],
+			[
+				"map",
+				"mapStateToProps"
+			],
+			[
+				"Bool",
+				"BookList"
+			],
+			[
+				"vdeo",
+				"videoSearch"
+			],
+			[
+				"vid",
+				"videoSearch"
+			],
+			[
+				"Vid",
+				"VideoDetail"
+			],
+			[
+				"video",
+				"videoId"
+			],
+			[
+				"ima",
+				"imageUrl"
+			],
+			[
+				"medi",
+				"media:left	left"
+			],
+			[
+				"img",
+				"image:responsive	responsive"
+			],
+			[
+				"list",
+				"list	list"
+			],
+			[
+				"li",
+				"list:context	context"
+			],
+			[
+				"V",
+				"VideoListItem"
+			],
+			[
+				"rc",
+				"rec	React createClass template"
+			],
+			[
+				"r",
+				"rcc	React: class component"
+			],
+			[
+				"Rea",
+				"ReactDOM"
+			],
+			[
+				"p",
+				"propTypes"
+			],
+			[
+				"P",
+				"propTypes"
+			],
+			[
+				"this",
+				"thisp	React this.props"
+			],
+			[
+				"rea",
+				"ReactDOM"
+			],
+			[
+				"id",
+				"imrd	import react-dom"
+			],
+			[
+				"i",
+				"imr	import react"
+			],
+			[
+				"sea",
+				"searchTermSet"
+			],
+			[
+				"se",
+				"searchTermSet"
+			],
+			[
+				"sear",
+				"searchTerm"
+			],
+			[
+				"sera",
+				"searchTermSet"
+			],
+			[
+				"old",
+				"oldsearchTerm"
+			],
+			[
+				"searcht",
+				"searchTermSet"
+			],
+			[
+				"searc",
+				"search_result"
+			],
+			[
+				"search",
+				"searchterms"
+			],
+			[
+				"server",
+				"serverid"
+			],
+			[
+				"url",
+				"urlopen"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1221,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 185.0,
+		"last_filter": "ssbab",
+		"selected_items":
+		[
+			[
+				"ssbab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ssba",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"form",
+				"JSFMT: Format the current file"
+			],
+			[
+				"ssja",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ssjav",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"jsbab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ss jav",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ss bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ss b",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ssj",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"linter",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"lin",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"ssjava",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"sni",
+				"Snippet: list_inline"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Emmet: Remove Tag"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"new file",
+				"File: New View into File"
+			],
+			[
+				"fom",
+				"JSFMT: Format the current file"
+			],
+			[
+				"linter setting",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ssmd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 637.0
+	},
+	"console":
+	{
+		"height": 299.0,
+		"history":
+		[
+			"clear console",
+			"clear",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/rob/Documents/interpolated/mapLib",
+		"/C/Users/rob/Documents/interpolated/mapLib/src",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/components",
+		"/C/Users/rob/Documents/interpolated/mapLib/style"
+	],
+	"file_history":
+	[
+		"/C/Users/rob/Documents/interpolated/mapLib/src/App.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/index.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/style/style.css",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/components/Lmap.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/index.html",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/components/cell.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/components/side-bar.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/components/map.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/package.json",
+		"/C/Users/rob/Documents/interpolated/mapLib/webpack.config.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/components",
+		"/C/Users/rob/Documents/interpolated/weather/src/containers/weather_list.js",
+		"/C/Users/rob/Documents/interpolated/weather/src/components/app.js",
+		"/C/Users/rob/Documents/interpolated/weather/src/components/chart.js",
+		"/C/Users/rob/Documents/interpolated/weather/webpack.config.js",
+		"/C/Users/rob/Documents/interpolated/weather/src/containers/search_bar.js",
+		"/C/Users/rob/Documents/interpolated/weather/src/reducers/index.js",
+		"/C/Users/rob/Documents/interpolated/weather/src/actions/index.js",
+		"/C/Users/rob/Documents/interpolated/weather/src/reducers/reducers_weather.js",
+		"/C/Users/rob/Documents/interpolated/weather/package.json",
+		"/C/Users/rob/Documents/interpolated/weather/src/index.js",
+		"/C/Users/rob/Documents/interpolated/weather/index.html",
+		"/C/Users/rob/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/rob/Documents/interpolated/site/package.json",
+		"/C/Users/rob/Documents/interpolated/site/webpack.config.js",
+		"/C/Users/rob/Documents/interpolated/weather/weather.sublime-project",
+		"/C/Users/rob/Documents/interpolated/weather/.eslintrc",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarterYoutubeApp/webpack.config.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarterYoutubeApp/package.json",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/reducers/index.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/actions/index.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/containers/book-detail.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/containers/book-list.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/components/app.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/reducers/reducer_active_book.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/reducers/reducer_books.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/components/book-list.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/components/search_bar.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/components/video_detail.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/components/video_list_item.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/components/video_list.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/style/style.css",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/index.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/index.html",
+		"/C/Users/rob/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/webpack.config.js",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/package.json",
+		"/C/Users/rob/Documents/interpolated/ReduxSimpleStarter/src/components/video_detail.s",
+		"/C/Users/rob/Documents/interpolated/test/test_helper.js",
+		"/C/Users/rob/Documents/interpolated/index.html",
+		"/C/Users/rob/Documents/interpolated/main.js",
+		"/C/Users/rob/Documents/interpolated/node_modules/acorn-jsx/index.js",
+		"/C/Users/rob/Documents/interpolated/.eslintrc",
+		"/C/Users/rob/Documents/interpolated/node_modules/lodash/isNative.js",
+		"/D/google/Dissatisfaction/dissatisfaction.md",
+		"/D/google/Dissatisfaction/plotnotes.md",
+		"/D/google/Dissatisfaction/precedent.md",
+		"/D/google/Dissatisfaction/characters.md",
+		"/D/google/Dissatisfaction/characterSketches.md",
+		"/C/Users/rob/Documents/GitHub/mapapp/node_modules/babel-plugin-transform-react-jsx-source/lib/index.js",
+		"/C/Users/rob/Documents/GitHub/mapapp/package.json",
+		"/C/Users/rob/Documents/GitHub/mapapp/webpack.config.js",
+		"/C/Users/rob/Documents/GitHub/mapapp/server.js",
+		"/C/Users/rob/Documents/GitHub/mapapp/hello.jsx",
+		"/C/Users/rob/Documents/GitHub/mapapp/node_modules/lodash.keys/index.js",
+		"/C/Users/rob/Documents/GitHub/mapapp/style.css",
+		"/C/Users/rob/Documents/GitHub/mapapp/bundle.js",
+		"/C/Users/rob/Documents/GitHub/mapapp/b.js",
+		"/C/Users/rob/Documents/GitHub/mapapp/h.js",
+		"/C/Users/rob/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
+		"/C/Users/rob/AppData/Roaming/Sublime Text 3/Packages/User/jsfmt.sublime-settings",
+		"/C/Users/rob/AppData/Roaming/Sublime Text 3/Packages/jsfmt/jsfmt.sublime-settings",
+		"/C/Users/rob/Documents/GitHub/mapapp/node_modules/esformatter-jsx/package.json",
+		"/D/google/Jobs/CoScoverLetter.md",
+		"/C/Users/rob/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/rob/AppData/Roaming/Sublime Text 3/Packages/WordCount/WordCount.sublime-settings",
+		"/D/google/StrangerCollective/vivid/tweetsv2.py",
+		"/D/google/StrangerCollective/vivid/cycleThroughOldTweets.py",
+		"/D/google/StrangerCollective/vivid/bingSearch.py",
+		"/D/google/StrangerCollective/vivid/bingSearch2.py",
+		"/D/google/StrangerCollective/vivid/flickr.py",
+		"/D/google/StrangerCollective/vivid/images.py",
+		"/D/google/blog/ecosOutlines.mdown",
+		"/D/google/StrangerCollective/vivid/tweets.py",
+		"/D/google/blog/opposites.mdown",
+		"/D/google/blog/mavisEconomics.mdown",
+		"/D/google/StrangerCollective/vivid/bingSearch2",
+		"/D/google/blog/#Ellul.mdown",
+		"/C/Users/rob/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/google/resourcingApp/presoText.mdown",
+		"/C/Users/rob/Documents/GitHub/fin-calc2/index.html"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 126.0,
+		"where_history":
+		[
+			"C:\\Users\\rob\\Documents\\GitHub\\hotReload\\react-hot-boilerplate"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dL",
+			"eventually",
+			"Table",
+			"pressure",
+			"kL",
+			"class",
+			"li",
+			"Reac",
+			"module.hot",
+			"\"",
+			"tweet",
+			"Tweet",
+			"tweet",
+			"!"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"li",
+			"input"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "json"
+							},
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 865.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 425.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mapLib.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app",
+				"src\\App.js"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"weat",
+				"src\\containers\\weather_list.js"
+			],
+			[
+				"char",
+				"src\\components\\chart.js"
+			],
+			[
+				"reducers",
+				"src\\reducers\\reducers_weather.js"
+			],
+			[
+				"reducers/in",
+				"src\\reducers\\index.js"
+			],
+			[
+				"i",
+				"index.html"
+			],
+			[
+				"book",
+				"src\\containers\\book-detail.js"
+			],
+			[
+				"actions/",
+				"src\\actions\\index.js"
+			],
+			[
+				"app.js",
+				"src\\components\\app.js"
+			],
+			[
+				"src/reducers",
+				"src\\reducers\\index.js"
+			],
+			[
+				"index.ht",
+				"index.html"
+			],
+			[
+				"s",
+				"style\\style.css"
+			],
+			[
+				"vide",
+				"src\\components\\video_detail.js"
+			],
+			[
+				"sear",
+				"src\\components\\search_bar.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"a",
+				"App.js"
+			],
+			[
+				"main.",
+				"main.js"
+			],
+			[
+				"in",
+				"node_modules\\lodash\\isNative.js"
+			],
+			[
+				"",
+				"precedent.md"
+			],
+			[
+				"p",
+				"plotnotes.md"
+			],
+			[
+				"sty",
+				"style.css"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"web",
+				"webpack.config.js"
+			],
+			[
+				"b",
+				"b.js"
+			],
+			[
+				"theme",
+				"Dissatisfaction\\themes.md"
+			],
+			[
+				"eco",
+				"blog\\mavisEconomics.mdown"
+			],
+			[
+				"bi",
+				"StrangerCollective\\vivid\\bingSearch2"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

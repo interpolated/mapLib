@@ -7,8 +7,8 @@
     "lint": "eslint src"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+    "type": "git ",
+    "url": "https://github.com/interpolated/mapLib"
   },
   "keywords": [
     "react",
@@ -23,10 +23,6 @@
   ],
   "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
-  },
-  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
@@ -41,7 +37,14 @@
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "fixed-data-table": "^0.6.3",
+    "immutable": "^3.8.1",
+    "leaflet": "^0.7.0",
+    "lodash": "^4.14.2",
+    "r-dom": "^2.2.3",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-leaflet": "^0.12.1",
+    "responsive-fixed-data-table": "^2.0.0"
   }
 }
