@@ -212,11 +212,41 @@
 	"buffers":
 	[
 		{
-			"file": "package.json",
+			"contents": "  import React, { Component } from 'react';\n// import SideBar from './components/side-bar';\nimport LeafletMap from './components/Lmap';\n\nexport default class App extends Component {\n  render() {\n    return (\n      <div className=\"App\">\n         <LeafletMap/>\n      </div>\n    );\n  }\n}\n",
+			"file": "src/App.js",
+			"file_size": 296,
+			"file_write_time": 131154650664159654,
 			"settings":
 			{
-				"buffer_size": 1221,
-				"line_ending": "Unix"
+				"buffer_size": 285,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 339,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "import React from 'react';\nimport { Map, Marker, Popup, TileLayer } from 'react-leaflet';\nimport ReactDOM from 'react-dom';\nimport { connect } from 'react-redux';\n\nclass LeafletMap extends React.Component {\n  constructor() {\n    super();\n    this.cState = {\n      lat: 51.505,\n      lng: -0.09,\n      zoom: 13,\n    };\n  }\n \n  render() {\n    console.log(this.props.projects);    \n    const position = [this.cState.lat, this.cState.lng];\n    return (\n        <Map center={position} zoom={this.cState.zoom}>\n            {this.props.projects.map(project=>{\n              return(\n                  <Marker position={position}>\n\n                  </Marker>\n                )\n            })}\n          <TileLayer\n            url='http://api.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZ2FydGhkYmVldGxlIiwiYSI6ImNpcHl5emhrdjB5YmxoY25yczF6MHhhc2IifQ.2Ld30uLqcffVv-RUAWk_qQ'\n            attribution='<a href=\"https://www.mapbox.com/about/maps/\" target=\"_blank\">&copy; Mapbox &copy; OpenStreetMap</a> <a href=\"https://www.mapbox.com/map-feedback/\" target=\"_blank\">Improve this map</a>'\n          />\n        </Map>\n    );\n  }\n}\n\nfunction mapStateToProps (state){\n  return {\n    projects: state.projects\n  }\n}\n\nfunction mapDispatchToProps(dispatch){\n  return \n}\n\nexport default connect(mapStateToProps)(LeafletMap);\n\n",
+			"file": "src/components/Lmap.js",
+			"file_size": 1375,
+			"file_write_time": 131157178888942908,
+			"settings":
+			{
+				"buffer_size": 1329,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/marker.js",
+			"settings":
+			{
+				"buffer_size": 3,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -389,11 +419,18 @@
 	[
 		"/C/Users/rob/Documents/interpolated/mapLib",
 		"/C/Users/rob/Documents/interpolated/mapLib/src",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/actions",
 		"/C/Users/rob/Documents/interpolated/mapLib/src/components",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/reducers",
 		"/C/Users/rob/Documents/interpolated/mapLib/style"
 	],
 	"file_history":
 	[
+		"/C/Users/rob/Documents/interpolated/mapLib/src/marker.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/reducers/reducers-project.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/reducers/index.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/actions/index.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/package.json",
 		"/C/Users/rob/Documents/interpolated/mapLib/src/App.js",
 		"/C/Users/rob/Documents/interpolated/mapLib/src/index.js",
 		"/C/Users/rob/Documents/interpolated/mapLib/style/style.css",
@@ -402,7 +439,6 @@
 		"/C/Users/rob/Documents/interpolated/mapLib/src/components/cell.js",
 		"/C/Users/rob/Documents/interpolated/mapLib/src/components/side-bar.js",
 		"/C/Users/rob/Documents/interpolated/mapLib/src/components/map.js",
-		"/C/Users/rob/Documents/interpolated/mapLib/package.json",
 		"/C/Users/rob/Documents/interpolated/mapLib/webpack.config.js",
 		"/C/Users/rob/Documents/interpolated/mapLib/src/components",
 		"/C/Users/rob/Documents/interpolated/weather/src/containers/weather_list.js",
@@ -488,7 +524,7 @@
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -503,6 +539,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"state",
+			"\"",
 			"dL",
 			"eventually",
 			"Table",
@@ -536,24 +574,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "package.json",
+					"file": "src/App.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1221,
+						"buffer_size": 285,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2,
+								2
 							]
 						],
 						"settings":
@@ -564,14 +602,133 @@
 								"modified": true,
 								"selection": true,
 								"status": -1,
-								"syntax": "json"
+								"syntax": "javascript"
 							},
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "javascript"
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 865.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "src/components/Lmap.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 364,
+								"count": 54,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "javascript"
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 44.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/components/marker.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "javascript"
+							},
+							"_anf_new": "",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -582,7 +739,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 33.0
 	},
 	"input":
 	{
@@ -597,11 +754,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.472156398104,
 			1.0
 		],
 		"rows":
@@ -623,7 +787,7 @@
 	"project": "mapLib.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -632,6 +796,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"lma",
+				"src\\components\\Lmap.js"
+			],
+			[
+				"ind",
+				"src\\index.js"
+			],
 			[
 				"app",
 				"src\\App.js"
@@ -765,7 +937,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
