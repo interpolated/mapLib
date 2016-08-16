@@ -221,33 +221,6 @@
 				"buffer_size": 285,
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"file": "src/index.js",
-			"settings":
-			{
-				"buffer_size": 339,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "import React from 'react';\nimport { Map, Marker, Popup, TileLayer } from 'react-leaflet';\nimport ReactDOM from 'react-dom';\nimport { connect } from 'react-redux';\n\nclass LeafletMap extends React.Component {\n  constructor() {\n    super();\n    this.cState = {\n      lat: 51.505,\n      lng: -0.09,\n      zoom: 13,\n    };\n  }\n \n  render() {\n    console.log(this.props.projects);    \n    const position = [this.cState.lat, this.cState.lng];\n    return (\n        <Map center={position} zoom={this.cState.zoom}>\n            {this.props.projects.map(project=>{\n              return(\n                  <Marker position={position}>\n\n                  </Marker>\n                )\n            })}\n          <TileLayer\n            url='http://api.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZ2FydGhkYmVldGxlIiwiYSI6ImNpcHl5emhrdjB5YmxoY25yczF6MHhhc2IifQ.2Ld30uLqcffVv-RUAWk_qQ'\n            attribution='<a href=\"https://www.mapbox.com/about/maps/\" target=\"_blank\">&copy; Mapbox &copy; OpenStreetMap</a> <a href=\"https://www.mapbox.com/map-feedback/\" target=\"_blank\">Improve this map</a>'\n          />\n        </Map>\n    );\n  }\n}\n\nfunction mapStateToProps (state){\n  return {\n    projects: state.projects\n  }\n}\n\nfunction mapDispatchToProps(dispatch){\n  return \n}\n\nexport default connect(mapStateToProps)(LeafletMap);\n\n",
-			"file": "src/components/Lmap.js",
-			"file_size": 1375,
-			"file_write_time": 131157178888942908,
-			"settings":
-			{
-				"buffer_size": 1329,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/components/marker.js",
-			"settings":
-			{
-				"buffer_size": 3,
-				"line_ending": "Windows"
-			}
 		}
 	],
 	"build_system": "",
@@ -426,15 +399,16 @@
 	],
 	"file_history":
 	[
-		"/C/Users/rob/Documents/interpolated/mapLib/src/marker.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/index.js",
 		"/C/Users/rob/Documents/interpolated/mapLib/src/reducers/reducers-project.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/components/Lmap.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/components/marker.js",
+		"/C/Users/rob/Documents/interpolated/mapLib/src/marker.js",
 		"/C/Users/rob/Documents/interpolated/mapLib/src/reducers/index.js",
 		"/C/Users/rob/Documents/interpolated/mapLib/src/actions/index.js",
 		"/C/Users/rob/Documents/interpolated/mapLib/package.json",
 		"/C/Users/rob/Documents/interpolated/mapLib/src/App.js",
-		"/C/Users/rob/Documents/interpolated/mapLib/src/index.js",
 		"/C/Users/rob/Documents/interpolated/mapLib/style/style.css",
-		"/C/Users/rob/Documents/interpolated/mapLib/src/components/Lmap.js",
 		"/C/Users/rob/Documents/interpolated/mapLib/index.html",
 		"/C/Users/rob/Documents/interpolated/mapLib/src/components/cell.js",
 		"/C/Users/rob/Documents/interpolated/mapLib/src/components/side-bar.js",
@@ -539,6 +513,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Popup",
 			"state",
 			"\"",
 			"dL",
@@ -574,7 +549,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -610,130 +585,14 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 339,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								269,
-								269
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "javascript"
-							},
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "src/components/Lmap.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1329,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								317,
-								317
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 364,
-								"count": 54,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "javascript"
-							},
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 44.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/components/marker.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3,
-								3
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "javascript"
-							},
-							"_anf_new": "",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -937,7 +796,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

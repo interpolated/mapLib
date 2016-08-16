@@ -1,8 +1,52 @@
-/*html, body, #root, .App{
+/*! PocketGrid 1.1.0
+* Copyright 2013 Arnaud Leray
+* MIT License
+*/
+/* Border-box-sizing */
+.block-group, .block, .block-group:after, .block:after, .block-group:before, .block:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Clearfix */
+.block-group {
+  *zoom: 1;
+}
+.block-group:before, .block-group:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.block-group:after {
+  clear: both;
+}
+
+.block-group {
+  /* ul/li compatibility */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Nested grid */
+.block-group > .block-group {
+  clear: none;
+  float: left;
+  margin: 0 !important;
+}
+
+/* Default block */
+.block {
+  float: left;
+  width: 100%;
+}
+
+html, body, #root, .App{
   width: 100%;
   height: 100%;
-}*/
-/*
+}
+
 .side-bar{
   width: 20%;
   height: 100%;
@@ -12,7 +56,7 @@
   width: 80%;
   height: 100%;
 }
-*/
+
 .leaflet-container{
   height: 600px;
   width: 100%;

@@ -4,7 +4,7 @@ return(
 [
   {
     id: 1,
-    location: [51.520, -0.11],
+    location: [-33.1, 151.1],
     name: '197 church',
     'people':[
       'Joe Agius',

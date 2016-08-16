@@ -1,23 +1,42 @@
 import React from 'react';
-import ResponsiveFixedDataTable from 'responsive-fixed-data-table';
-import {Column, Cell} from 'fixed-data-table';
-import ProjectCell from './cell'
+import ReactList from 'react-list'; 
+import { connect } from 'react-redux';
 
-export default class projectTable extends React.Component {
+class projectList extends React.Component {
+  constructor() {
+    super();
+  }
+
+  renderItem = (index, key) => {
+    return(
+        <div
+        key = {key}>
+          {this.props.projects[index].name}
+        </div>
+      )
+  }
+
   render(){
     return(
         <div className="block side-bar">
-          <ResponsiveFixedDataTable
-            rowsCount = {100}
-            rowHeight= {150}
-            headerHeight = {100}>
-            <Column
-              cell={<ProjectCell/>}
-              //width can be adjusted see fb example
-              width = {200}
-            />
-          </ResponsiveFixedDataTable>
+          <ReactList
+            itemRenderer = {this.renderItem.bind(this)}
+            length = {this.props.projects.length}
+            type = 'simple' 
+          />
         </div>
       );
   }
 }
+
+function mapStateToProps (state){
+  return {
+    projects: state.projects
+  }
+}
+
+function mapDispatchToProps(dispatch){
+  return 
+}
+
+export default connect(mapStateToProps)(projectList);
